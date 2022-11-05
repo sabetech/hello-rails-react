@@ -12,7 +12,7 @@ const Greeting = () => {
 
   useEffect(() => {
     randomGreetings();
-  }, []);
+  });
 
   return (
     <div>
